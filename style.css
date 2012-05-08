@@ -1,0 +1,51 @@
+.navba {
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 29px;
+	width: 100%;
+	background-color: #2D2D2D;
+	border-bottom: 1px solid #000000;
+}
+.navbb {
+
+	list-style-type: none;
+	margin: 0 0;
+	padding: 0 0;
+}
+#navb > li {
+	display: inline;
+	padding: 0 9px;
+	font-family: arial,sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	line-height: 27px;
+	position: relative;
+}
+.navbb a:link {
+text-decoration:none;
+color:#CCCCCC;
+}
+
+.navbb a:visited {
+text-decoration:none;
+color:#CCCCCC;
+}
+
+.navbb a:hover {
+text-decoration:none;
+color:#FFFFFF;
+}
+
+.navbb a:active {
+text-decoration:none;
+color:#FFFFFF;
+}
+.navbc {
+	position: absolute;
+	top: 30px;
+	left: 0;
+	width: 100%;
+	height: 29px;
+}
